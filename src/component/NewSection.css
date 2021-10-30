@@ -1,0 +1,44 @@
+.container1 {
+    margin-top: -3rem;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-auto-rows: 300px;
+    grid-gap: 100px;
+    grid-auto-flow: dense;
+    padding-left:124px;
+}
+.container1>div {
+    /* background: darkblue; */
+    color: rgb(20, 18, 18);
+  
+}
+
+.header>p{
+    font-size: 0.9rem;
+}
+.header1 {
+    grid-column: span 1;
+}
+.header3 {
+    grid-column: span 3;
+    text-align: center;
+    transform:translate(14%,2%);
+    width: 70%;
+}
+
+.header> h1{
+    color: #2D969C;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+}
+
+
+.header2{
+    grid-row: span 1;
+}
+
+
+
+
+  

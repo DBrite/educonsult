@@ -1,0 +1,86 @@
+.contact-formgroup{
+
+    text-align: center;
+    background-color: #f1d5b8;
+    padding: 3rem 0 6rem 0;
+}
+
+.contact-form>h1{
+    text-align: center;
+    padding-left:2.5rem;
+}
+.contact-form{
+    margin-bottom: 1rem;
+    position: relative;
+}
+.contact-form>input{
+    padding: .7rem 1rem;
+    border-radius: .3rem;
+    width: 35%;
+    border: 0.15rem solid #2D969C;
+    height:3.5rem;
+}
+.contact-form>h1{
+    color:#2D969C;
+    font-size: 4rem;
+}
+.contact-form>label{
+    margin-right:.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:#2D969C;
+   /* display: inline-block; */
+   
+}
+.contact-form>textarea{
+    padding: .7rem 1rem;
+    border-radius: .3rem;
+    width: 35%;
+    border: 0.15rem solid #2D969C;
+    resize: none;
+    height: 9rem;
+}
+
+.textarea-container>textarea{
+    /* padding: .7rem 1rem; */
+    border-radius: .3rem;
+    width: 35%;
+    border: 0.15rem solid #2D969C;
+    position:absolute;
+    left:27rem;
+    height: 8rem;
+    padding: .7rem 1rem;
+
+}
+.textarea-container>.message-post{
+    padding: .7rem 1rem;
+    border-radius: .3rem;
+    position:absolute;
+    /* position: relative; */
+    left:20.5rem;
+    top:2rem;
+    color:#2D969C;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+.button-div{
+    margin-top: 10rem;
+    padding-left:25rem;
+    /* position: absolute; */
+
+}
+.button-div>button{
+    padding:.5rem 1rem;
+    background:#2D969C;
+    border-radius: .3rem;
+    font-size: 1rem;
+    /* font-weight: 700; */
+    color:#fff;
+    border: none;
+}
+.button-div>button:hover{
+    background:#11e5f0;
+    color:#E47C13;
+    font-weight: 700; 
+}
