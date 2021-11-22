@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-s6#fa@fr0@--1)2#=&*7l^^s2nz2$+c40i#u)plnzoy@xq(_u#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'educonsult.herokuapp.com',
+]
 
 
 # Application definition
