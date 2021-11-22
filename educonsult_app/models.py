@@ -5,10 +5,10 @@ from django.db.models import constraints
 
 class Contact(models.Model):
     #contact_id = models.AutoField()
-    name = models.CharField(max_length=40)
+    name = models.CharField(max_length=50)
     email = models.EmailField()
     phone = models.CharField(max_length=10)
-    message = models.TextField(max_length=1000)
+    message = models.TextField(max_length=2000)
 
     def __str__(self):
         return self.name
