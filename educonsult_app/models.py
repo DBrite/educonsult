@@ -4,7 +4,7 @@ from django.db.models import constraints
 # Create your models here.
 
 class Contact(models.Model):
-    #contact_id = models.AutoField
+    #contact_id = models.AutoField()
     name = models.CharField(max_length=40)
     email = models.EmailField()
     phone = models.CharField(max_length=10)
