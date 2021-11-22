@@ -1,1 +1,1 @@
-web:gunicorn educonsult.wsgi --log-file -
+web: gunicorn educonsult.wsgi --log-file -
