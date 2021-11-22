@@ -1,0 +1,1 @@
+web:gunicorn educonsult.wsgi --log-file -
