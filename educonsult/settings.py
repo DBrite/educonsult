@@ -128,7 +128,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 #whitelisting react port
 CORS_ORIGIN_WHITELIST = [
-    'https://localhost:3000'
+    'https://localhost:3000',
+    'https://acumen-educonsult.herokuapp.com'
 ]
 
 # Internationalization
