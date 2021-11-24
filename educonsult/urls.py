@@ -19,7 +19,8 @@ from educonsult_app import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register(r'tasks',  views.ContactView, 'task')
+router.register(r'Contact',  views.ContactView, 'Contact')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
