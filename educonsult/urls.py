@@ -19,7 +19,7 @@ from educonsult_app import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register(r'Contact',  views.ContactView, 'Contact')
+router.register(r'contact',  views.ContactView, 'Contact')
 
 
 urlpatterns = [
